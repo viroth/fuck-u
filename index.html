@@ -1,24 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
+   <head>
+      <title>The Materialize Example</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">      
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/costom.css">                 
+  </head>
+ 
 
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-</head>
+
 <body>
-	<div class="container">
-		<nav>
-		    <div class="nav-wrapper">
-		      <a href="#" class="brand-logo">Logo</a>
-		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li><a href="sass.html">Sass</a></li>
-		        <li><a href="badges.html">Components</a></li>
-		        <li><a href="collapsible.html">JavaScript</a></li>
+	<div class="navbar-fixed">
+		<nav class="deep-purple darken-4" role="navigation">
+			
+		    <div class="nav-wrapper container">
+		      <a href="#" class="brand-logo">  Dudeball</a>
+
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="#">Football</a></li>
+		        <li><a href="#">Match</a></li>
+		        <li><a href="#">Live Football</a></li>
 		      </ul>
-		    </div>
+
+
+
+		      <ul id="nav-mobile" class="side-nav">
+		        <li><a href="#">Football</a></li>
+		        <li><a href="#">Match</a></li>
+		        <li><a href="#">Live Football</a></li>
+		      </ul>
+		       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+ 		    </div>
+ 		  
 		</nav>
 	</div>
+	
+	<!-- Parallax -->
+	<div class="parallax-container">
+    	<div class="parallax"><img src="img\bg-2.jpg"></div>
+    	<div class="container center">
+    		<br><br>
+    		<h3>DubeFootball Most fastest football news </h3>
+    		<a class="waves-effect waves-light btn-large purple darken-4">Watch Live Now</a>
+    	</div>
+    	
+  	</div>
+  	<div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+  	<!-- End Parallax -->
+	<div class="container">
+		<div class="card-panel teal lighten-2"><h3>Hello World!</h3></div>
+	</div>
 </body>
+
+
+
+
+
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+ <script type="text/javascript">
+	 (function($){
+	  $(function(){
+
+	    $('.button-collapse').sideNav();
+
+	  }); // end of document ready
+	})(jQuery); // end of jQuery name space
+
+	 $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+
+</script>
 </html>
