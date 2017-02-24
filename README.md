@@ -1,4 +1,4 @@
 # fuck-u
 just another fuck
 
-best player
+Edit Read me
