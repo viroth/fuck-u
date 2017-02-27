@@ -10,9 +10,22 @@
 
 .section-content{
 	padding: 10px;
+	height: 400px;
 }
 
 
 .card img{
 	width: 100%;
+}
+
+.block{
+	height: 10%;
+}
+
+@media only screen and (max-width : 600px){
+	.section-content{
+		padding: 10px;
+		height: auto;
+	}
+
 }
