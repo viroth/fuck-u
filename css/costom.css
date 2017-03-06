@@ -2,11 +2,26 @@ body{
 	font-family: Hanuman,"Khmer OS System","Khmer OS",Tahoma !important;
 }
  .parallax-container {
-      height: 350px;
+      /*height: 350px;*/
       color:#311b92;
     }
 
 /*Header Section =====================*/
+
+.section-logo{
+	padding: 10px;
+
+}
+
+
+
+.logo{
+	width: auto;
+	height: 100px;
+}
+
+
+
 #vid {
 	width: 100%;
 	/*height: 500px;*/
